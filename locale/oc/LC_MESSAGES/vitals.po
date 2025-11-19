@@ -1,8 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-16 18:26+0300\n"
+"POT-Creation-Date: 2022-04-10 21:29+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Quentin PAGÈS\n"
 "Language-Team: \n"
@@ -21,450 +20,525 @@ msgstr ""
 "X-Poedit-SearchPath-5: extension.js\n"
 "X-Poedit-SearchPath-6: schemas/prefs.ui\n"
 
-#: ../extension.js:134
+#: extension.js:129
 msgid "Refresh"
 msgstr "Actualizar"
 
-#: ../extension.js:149
+#: extension.js:147
 msgid "System Monitor"
 msgstr "Monitor sistèma"
 
-#: ../extension.js:157 ../prefs.js:102
+#: extension.js:155
 msgid "Preferences"
 msgstr "Preferéncias"
 
-#: ../extension.js:193
-msgid "No Data"
+#: prefs.ui:42 schemas/org.gnome.shell.extensions.vitals.gschema.xml:81
+msgid "Include public IP address"
+msgstr "Inclure l’adreça IP publica"
+
+#: prefs.ui:70
+msgid "Format"
+msgstr "Format"
+
+#: prefs.ui:78
+msgid "Bytes"
+msgstr "Octets"
+
+#: prefs.ui:79
+msgid "Bits"
+msgstr "Bits"
+
+#: prefs.ui:121
+msgid "General"
+msgstr "General"
+
+#: prefs.ui:149 schemas/org.gnome.shell.extensions.vitals.gschema.xml:11
+msgid "Seconds between updates"
+msgstr "Segondas entre las actualizacions"
+
+#: prefs.ui:184 schemas/org.gnome.shell.extensions.vitals.gschema.xml:16
+msgid "Position in panel"
+msgstr "Posicion al panèl"
+
+#: prefs.ui:193
+msgid "Left"
+msgstr "Esquèrra"
+
+#: prefs.ui:194
+msgid "Center"
+msgstr "Centre"
+
+#: prefs.ui:195
+msgid "Right"
+msgstr "Drecha"
+
+#: prefs.ui:196
+#, fuzzy
+msgid "Far Left"
+msgstr "Esquèrra"
+
+#: prefs.ui:197
+#, fuzzy
+msgid "Far Right"
+msgstr "Drecha"
+
+#: prefs.ui:220 schemas/org.gnome.shell.extensions.vitals.gschema.xml:21
+msgid "Use higher precision"
+msgstr "Precision mai granda"
+
+#: prefs.ui:247 schemas/org.gnome.shell.extensions.vitals.gschema.xml:26
+msgid "Alphabetize sensors"
+msgstr "Ordenar alfabeticament los captaires"
+
+#: prefs.ui:274 schemas/org.gnome.shell.extensions.vitals.gschema.xml:31
+msgid "Hide zero values"
+msgstr "Rescondre las valors a zèro"
+
+#: prefs.ui:301
+msgid "Use fixed widths"
 msgstr ""
 
-#: ../sensors.js:201
-#, javascript-format
-msgid "Core %d"
-msgstr "Còs %d"
+#: prefs.ui:328 schemas/org.gnome.shell.extensions.vitals.gschema.xml:121
+msgid "Hide icons in top bar"
+msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:6
+#: prefs.ui:352
+msgid "About"
+msgstr "A prepaus"
+
+#: prefs.ui:367
+msgid ""
+"Feature requests or bugs? Please visit <a href=\"https://github.com/"
+"corecoding/Vitals/issues\">GitHub</a>. No warranty, expressed or implied. <a "
+"href=\"https://corecoding.com/donate.php\">Donate</a> if you found this "
+"useful."
+msgstr ""
+"Demanda de foncionalitat o bug ? Consultatz <a href=\"https://github.com/"
+"corecoding/Vitals/issues\">GitHub</a>. Cap de garantida, exprimida o "
+"implicita. <a href=\"https://corecoding.com/donate.php\">Donar</a> se "
+"trobatz aquò util."
+
+#: prefs.ui:394
+msgid "Sensors"
+msgstr "Captaires"
+
+#: prefs.ui:422 schemas/org.gnome.shell.extensions.vitals.gschema.xml:36
+msgid "Monitor temperature"
+msgstr "Susvelhar la temperatura"
+
+#: prefs.ui:473 schemas/org.gnome.shell.extensions.vitals.gschema.xml:46
+msgid "Monitor voltage"
+msgstr "Susvelhar lo voltatge"
+
+#: prefs.ui:501 schemas/org.gnome.shell.extensions.vitals.gschema.xml:51
+msgid "Monitor fan"
+msgstr "Susvelhar lo ventilador"
+
+#: prefs.ui:529 schemas/org.gnome.shell.extensions.vitals.gschema.xml:56
+msgid "Monitor memory"
+msgstr "Susvelhar la memòria"
+
+#: prefs.ui:580 schemas/org.gnome.shell.extensions.vitals.gschema.xml:61
+msgid "Monitor processor"
+msgstr "Susvelhar lo processor"
+
+#: prefs.ui:608 schemas/org.gnome.shell.extensions.vitals.gschema.xml:66
+msgid "Monitor system"
+msgstr "Susvelhar lo sistèma"
+
+#: prefs.ui:636 schemas/org.gnome.shell.extensions.vitals.gschema.xml:76
+msgid "Monitor network"
+msgstr "Susvelhar lo ret"
+
+#: prefs.ui:687 schemas/org.gnome.shell.extensions.vitals.gschema.xml:71
+msgid "Monitor storage"
+msgstr "Susvelhar l’emmagazinatge"
+
+#: prefs.ui:738 schemas/org.gnome.shell.extensions.vitals.gschema.xml:96
+#, fuzzy
+msgid "Monitor battery"
+msgstr "Susvelhar la memòria"
+
+#: prefs.ui:817
+msgid "Path"
+msgstr "Camin d'accès"
+
+#: prefs.ui:849 prefs.ui:958
+msgid "Measurement"
+msgstr ""
+
+#: prefs.ui:903
+msgid "Unit"
+msgstr "Unitat"
+
+#: prefs.ui:1012
+msgid "Display Battery"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:6
 #, fuzzy
 msgid "Sensors to show in panel"
 msgstr "Posicion al panèl"
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:7
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:7
 msgid "List of sensors to be shown in the panel"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:11
-msgid "Seconds between updates"
-msgstr "Segondas entre las actualizacions"
-
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:12
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:12
 msgid "Delay between sensor polling"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:16
-msgid "Position in panel"
-msgstr "Posicion al panèl"
-
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:17
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:17
 msgid "Position in Panel ('left', 'center', 'right')"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:21
-msgid "Use higher precision"
-msgstr "Precision mai granda"
-
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:22
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:22
 msgid "Show one extra digit after decimal"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:26
-msgid "Alphabetize sensors"
-msgstr "Ordenar alfabeticament los captaires"
-
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:27
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:27
 msgid "Display sensors in alphabetical order"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:31
-msgid "Hide zero values"
-msgstr "Rescondre las valors a zèro"
-
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:32
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:32
 msgid "Hide data from sensors that are invalid"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:36
-msgid "Monitor temperature"
-msgstr "Susvelhar la temperatura"
-
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:37
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:37
 msgid "Display temperature of various components"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:41
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:41
 #, fuzzy
 msgid "Temperature unit"
 msgstr "Temperatura"
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:42
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:42
 msgid ""
 "The unit ('centigrade' or 'fahrenheit') the extension should display the "
 "temperature in"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:46
-msgid "Monitor voltage"
-msgstr "Susvelhar lo voltatge"
-
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:47
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:47
 msgid "Display voltage of various components"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:51
-msgid "Monitor fan"
-msgstr "Susvelhar lo ventilador"
-
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:52
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:52
 msgid "Display fan rotation per minute"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:56
-msgid "Monitor memory"
-msgstr "Susvelhar la memòria"
-
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:57
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:57
 msgid "Display memory information"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:61
-msgid "Monitor processor"
-msgstr "Susvelhar lo processor"
-
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:62
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:62
 msgid "Display processor information"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:66
-msgid "Monitor system"
-msgstr "Susvelhar lo sistèma"
-
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:67
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:67
 msgid "Display system information"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:71
-msgid "Monitor storage"
-msgstr "Susvelhar l’emmagazinatge"
-
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:72
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:72
 msgid "Display storage information"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:76
-msgid "Monitor network"
-msgstr "Susvelhar lo ret"
-
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:77
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:77
 msgid "Display network information"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:81
-msgid "Include public IP address"
-msgstr "Inclure l’adreça IP publica"
-
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:82
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:82
 msgid "Display public IP address of internet connection"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:86
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:86
 msgid "Network speed format"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:87
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:87
 msgid "Should speed display in bits or bytes?"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:91
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:91
 #, fuzzy
 msgid "Storage path"
 msgstr "Emmagazinatge"
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:92
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:92
 msgid "Storage path for monitoring"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:96
-#, fuzzy
-msgid "Monitor battery"
-msgstr "Susvelhar la memòria"
-
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:97
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:97
 #, fuzzy
 msgid "Monitor battery health"
 msgstr "Susvelhar la temperatura"
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:101
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:101
 msgid "Memory measurement"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:102
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:102
 msgid "Can use gigabyte or gibibyte for memory"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:106
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:106
 #, fuzzy
 msgid "Storage measurement"
 msgstr "Preferéncias d’emmagazinatge"
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:107
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:107
 msgid "Can use gigabyte or gibibyte for storage"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:111
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:111
 msgid "Battery slot to monitor"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:112
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:112
 msgid "Which numerical battery slot should vitals monitor"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:116
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:116
 msgid "Use fixed widths in top bar"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:117
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:117
 msgid "Keep sensors in top bar from jumping around"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:121
-msgid "Hide icons in top bar"
-msgstr ""
-
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:122
+#: schemas/org.gnome.shell.extensions.vitals.gschema.xml:122
 msgid "Keep top bar clean by only showing sensor values"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:126
-msgid "Make the menu centered"
+#: sensors.js:42
+#, fuzzy
+msgid "Temperature"
+msgstr "Temperatura"
+
+#: sensors.js:43 sensors.js:307 sensors.js:337
+msgid "Voltage"
+msgstr "Voltatge"
+
+#: sensors.js:44
+msgid "Fan"
+msgstr "Ventilador"
+
+#: sensors.js:45
+msgid "Memory"
+msgstr "Memòria"
+
+#: sensors.js:46
+msgid "Processor"
+msgstr "Processor"
+
+#: sensors.js:47
+msgid "System"
+msgstr "Sistèma"
+
+#: sensors.js:48
+msgid "Network"
+msgstr "Ret"
+
+#: sensors.js:49
+#, fuzzy
+msgid "Storage"
+msgstr "Emmagazinatge"
+
+#: sensors.js:76
+msgid "Public IP"
+msgstr "IP publica"
+
+#: sensors.js:144
+msgid "Usage"
+msgstr "Usatge"
+
+#: sensors.js:145
+#, fuzzy
+msgid "memory"
+msgstr "Memòria"
+
+#: sensors.js:146
+msgid "Physical"
+msgstr "Fisic"
+
+#: sensors.js:147
+msgid "Available"
+msgstr "Disponible"
+
+#: sensors.js:148
+msgid "Allocated"
+msgstr "Alogat"
+
+#: sensors.js:149
+msgid "Swap"
+msgstr "Schimb"
+
+#: sensors.js:189
+msgid "Average"
+msgstr "Mejana"
+
+#: sensors.js:190
+#, fuzzy
+msgid "processor"
+msgstr "Processor"
+
+#: sensors.js:192
+#, javascript-format
+msgid "Core %d"
+msgstr "Còs %d"
+
+#: sensors.js:236
+msgid "Frequency"
+msgstr "Frequéncia"
+
+#: sensors.js:237
+msgid "Boost"
+msgstr "Partejar"
+
+#: sensors.js:238
+msgid "Vendor"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:127
-msgid "Center the menu to the icon regardless of the position in the panel"
+#: sensors.js:239
+msgid "Bogomips"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:131
-#, fuzzy
-msgid "System Monitor command"
-msgstr "Monitor sistèma"
-
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:132
-msgid "The command run when system monitor button is clicked"
+#: sensors.js:240
+msgid "Sockets"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:136
-msgid "Include processor static information"
+#: sensors.js:241
+msgid "Cache"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:137
-msgid "Display processor static information that doesn't change"
+#: sensors.js:250
+msgid "Open Files"
+msgstr "Dobrir los fichièrs"
+
+#: sensors.js:258
+msgid "Load 1m"
+msgstr "Carga 1m"
+
+#: sensors.js:259
+#, fuzzy
+msgid "system"
+msgstr "Sistèma"
+
+#: sensors.js:260
+msgid "Load 5m"
+msgstr "Carga 5m"
+
+#: sensors.js:261
+msgid "Load 15m"
+msgstr "Carga 15m"
+
+#: sensors.js:262
+msgid "Threads Active"
+msgstr "Fils actius"
+
+#: sensors.js:263
+msgid "Threads Total"
+msgstr "Fils totals"
+
+#: sensors.js:269
+msgid "Uptime"
+msgstr "Temps de connexion"
+
+#: sensors.js:273
+msgid "Process Time"
+msgstr "Temps de tractament"
+
+#: sensors.js:290
+msgid "State"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:141
-#, fuzzy
-msgid "Monitor GPU"
-msgstr "Susvelhar lo ventilador"
-
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:142
-msgid "Display GPU information (requires the nvidia-smi tool)"
+#: sensors.js:295
+msgid "Cycles"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:146
-msgid "Include GPU static information"
+#: sensors.js:300 sensors.js:330
+msgid "Energy (full)"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:147
-msgid "Display GPU static information that doesn't change"
+#: sensors.js:302 sensors.js:332
+msgid "Capacity"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:151
-msgid "Icon styles"
+#: sensors.js:303 sensors.js:333
+msgid "Energy (design)"
 msgstr ""
 
-#: ../schemas/org.gnome.shell.extensions.vitals.gschema.xml:152
-msgid "Set the style for the displayed sensor icons ('original', 'updated')"
+#: sensors.js:311 sensors.js:340
+msgid "Rate"
 msgstr ""
 
-#~ msgid "Format"
-#~ msgstr "Format"
-
-#~ msgid "Bytes"
-#~ msgstr "Octets"
-
-#~ msgid "Bits"
-#~ msgstr "Bits"
-
-#~ msgid "General"
-#~ msgstr "General"
-
-#~ msgid "Left"
-#~ msgstr "Esquèrra"
-
-#~ msgid "Center"
-#~ msgstr "Centre"
-
-#~ msgid "Right"
-#~ msgstr "Drecha"
-
+#: sensors.js:312 sensors.js:341
 #, fuzzy
-#~ msgid "Far Left"
-#~ msgstr "Esquèrra"
+msgid "battery"
+msgstr "Susvelhar la memòria"
 
+#: sensors.js:316 sensors.js:344
+msgid "Energy (now)"
+msgstr ""
+
+#: sensors.js:322 sensors.js:350
+msgid "Percentage"
+msgstr ""
+
+#: sensors.js:411
+msgid "WiFi Link Quality"
+msgstr ""
+
+#: sensors.js:412
+msgid "WiFi Signal Level"
+msgstr ""
+
+#: sensors.js:432
+msgid "ARC Target"
+msgstr ""
+
+#: sensors.js:433
 #, fuzzy
-#~ msgid "Far Right"
-#~ msgstr "Drecha"
+msgid "ARC Maximum"
+msgstr "Maximum "
 
-#~ msgid "About"
-#~ msgstr "A prepaus"
+#: sensors.js:434
+msgid "ARC Current"
+msgstr ""
 
-#~ msgid ""
-#~ "Feature requests or bugs? Please visit <a href=\"https://github.com/"
-#~ "corecoding/Vitals/issues\">GitHub</a>. No warranty, expressed or implied. "
-#~ "<a href=\"https://corecoding.com/donate.php\">Donate</a> if you found "
-#~ "this useful."
-#~ msgstr ""
-#~ "Demanda de foncionalitat o bug ? Consultatz <a href=\"https://github.com/"
-#~ "corecoding/Vitals/issues\">GitHub</a>. Cap de garantida, exprimida o "
-#~ "implicita. <a href=\"https://corecoding.com/donate.php\">Donar</a> se "
-#~ "trobatz aquò util."
+#: sensors.js:445
+msgid "Read total"
+msgstr "Donadas legidas"
 
-#~ msgid "Sensors"
-#~ msgstr "Captaires"
+#: sensors.js:446
+msgid "Write total"
+msgstr "Donadas escrichas"
 
-#~ msgid "Path"
-#~ msgstr "Camin d'accès"
+#: sensors.js:447
+msgid "Read rate"
+msgstr "Donadas legidas/seg"
 
-#~ msgid "Unit"
-#~ msgstr "Unitat"
+#: sensors.js:448
+msgid "Write rate"
+msgstr "Donadas escrichas/seg"
 
+#: sensors.js:467
+msgid "Total"
+msgstr "Al total"
+
+#: sensors.js:468
+msgid "Used"
+msgstr "Utilizat"
+
+#: sensors.js:469
+msgid "Reserved"
+msgstr "Reservat"
+
+#: sensors.js:470
+msgid "Free"
+msgstr "Libre"
+
+#: sensors.js:471
 #, fuzzy
-#~ msgid "Temperature"
-#~ msgstr "Temperatura"
-
-#~ msgid "Voltage"
-#~ msgstr "Voltatge"
-
-#~ msgid "Fan"
-#~ msgstr "Ventilador"
-
-#~ msgid "Memory"
-#~ msgstr "Memòria"
-
-#~ msgid "Processor"
-#~ msgstr "Processor"
-
-#~ msgid "System"
-#~ msgstr "Sistèma"
-
-#~ msgid "Network"
-#~ msgstr "Ret"
-
-#, fuzzy
-#~ msgid "Storage"
-#~ msgstr "Emmagazinatge"
-
-#~ msgid "Public IP"
-#~ msgstr "IP publica"
-
-#~ msgid "Usage"
-#~ msgstr "Usatge"
-
-#, fuzzy
-#~ msgid "memory"
-#~ msgstr "Memòria"
-
-#~ msgid "Physical"
-#~ msgstr "Fisic"
-
-#~ msgid "Available"
-#~ msgstr "Disponible"
-
-#~ msgid "Allocated"
-#~ msgstr "Alogat"
-
-#~ msgid "Swap"
-#~ msgstr "Schimb"
-
-#~ msgid "Average"
-#~ msgstr "Mejana"
-
-#, fuzzy
-#~ msgid "processor"
-#~ msgstr "Processor"
-
-#~ msgid "Frequency"
-#~ msgstr "Frequéncia"
-
-#~ msgid "Boost"
-#~ msgstr "Partejar"
-
-#~ msgid "Open Files"
-#~ msgstr "Dobrir los fichièrs"
-
-#~ msgid "Load 1m"
-#~ msgstr "Carga 1m"
-
-#, fuzzy
-#~ msgid "system"
-#~ msgstr "Sistèma"
-
-#~ msgid "Load 5m"
-#~ msgstr "Carga 5m"
-
-#~ msgid "Load 15m"
-#~ msgstr "Carga 15m"
-
-#~ msgid "Threads Active"
-#~ msgstr "Fils actius"
-
-#~ msgid "Threads Total"
-#~ msgstr "Fils totals"
-
-#~ msgid "Uptime"
-#~ msgstr "Temps de connexion"
-
-#~ msgid "Process Time"
-#~ msgstr "Temps de tractament"
-
-#, fuzzy
-#~ msgid "battery"
-#~ msgstr "Susvelhar la memòria"
-
-#, fuzzy
-#~ msgid "ARC Maximum"
-#~ msgstr "Maximum "
-
-#~ msgid "Read total"
-#~ msgstr "Donadas legidas"
-
-#~ msgid "Write total"
-#~ msgstr "Donadas escrichas"
-
-#~ msgid "Read rate"
-#~ msgstr "Donadas legidas/seg"
-
-#~ msgid "Write rate"
-#~ msgstr "Donadas escrichas/seg"
-
-#~ msgid "Total"
-#~ msgstr "Al total"
-
-#~ msgid "Used"
-#~ msgstr "Utilizat"
-
-#~ msgid "Reserved"
-#~ msgstr "Reservat"
-
-#~ msgid "Free"
-#~ msgstr "Libre"
-
-#, fuzzy
-#~ msgid "storage"
-#~ msgstr "Susvelhar l’emmagazinatge"
+msgid "storage"
+msgstr "Susvelhar l’emmagazinatge"
